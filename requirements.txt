@@ -1,0 +1,13 @@
+# Advanced Multi-Format Video & Audio Downloader - Dependencies
+
+# Web Framework
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Video/Audio Downloading
+yt-dlp>=2024.1.0
+
+# Note: FFmpeg must be installed separately on the system
+# Windows: choco install ffmpeg OR download from https://ffmpeg.org/download.html
+# Linux: sudo apt install ffmpeg
+# macOS: brew install ffmpeg
