@@ -1,0 +1,266 @@
+2026-01-08 08:03:53,182 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.179:5000
+2026-01-08 08:03:53,182 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-08 08:03:53,186 - INFO -  * Restarting with stat
+2026-01-08 08:03:54,287 - WARNING -  * Debugger is active!
+2026-01-08 08:03:54,298 - INFO -  * Debugger PIN: 234-308-637
+2026-01-08 08:04:30,460 - INFO - 127.0.0.1 - - [08/Jan/2026 08:04:30] "GET / HTTP/1.1" 200 -
+2026-01-08 08:04:30,845 - INFO - 127.0.0.1 - - [08/Jan/2026 08:04:30] "GET /styles.css HTTP/1.1" 200 -
+2026-01-08 08:04:30,847 - INFO - 127.0.0.1 - - [08/Jan/2026 08:04:30] "GET /app.js HTTP/1.1" 200 -
+2026-01-08 08:04:32,203 - INFO - 127.0.0.1 - - [08/Jan/2026 08:04:32] "GET /api/events HTTP/1.1" 200 -
+2026-01-08 08:04:32,452 - INFO - 127.0.0.1 - - [08/Jan/2026 08:04:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-08 08:05:15,529 - INFO - 127.0.0.1 - - [08/Jan/2026 08:05:15] "GET /api/history HTTP/1.1" 200 -
+2026-01-08 08:05:16,311 - INFO - 127.0.0.1 - - [08/Jan/2026 08:05:16] "GET /api/history HTTP/1.1" 200 -
+2026-01-08 08:07:20,127 - ERROR - yt-dlp download error for https://music.youtube.com/playlist?list=PLY3bq06bq76jxnesAn4AhcNMqGlpMCbVg: ERROR: [youtube] B_rRiXD4DlM: Video unavailable. This video is not available
+2026-01-08 08:07:20,132 - INFO - 127.0.0.1 - - [08/Jan/2026 08:07:20] "POST /api/info HTTP/1.1" 200 -
+2026-01-08 08:08:28,220 - INFO - 127.0.0.1 - - [08/Jan/2026 08:08:28] "POST /api/info HTTP/1.1" 200 -
+2026-01-08 08:15:26,150 - INFO -  * Detected change in 'C:\\Users\\HP\\.gemini\\antigravity\\scratch\\yt\\backend\\app.py', reloading
+2026-01-08 08:15:26,345 - INFO -  * Restarting with stat
+2026-01-08 08:15:27,671 - WARNING -  * Debugger is active!
+2026-01-08 08:15:27,674 - INFO -  * Debugger PIN: 234-308-637
+2026-01-08 08:15:29,771 - INFO - 127.0.0.1 - - [08/Jan/2026 08:15:29] "GET /api/events HTTP/1.1" 200 -
+2026-01-08 08:15:31,333 - INFO - 127.0.0.1 - - [08/Jan/2026 08:15:31] "GET /api/events HTTP/1.1" 200 -
+2026-01-08 08:18:22,586 - INFO - 127.0.0.1 - - [08/Jan/2026 08:18:22] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-08 08:18:23,623 - INFO - 127.0.0.1 - - [08/Jan/2026 08:18:23] "GET /styles.css HTTP/1.1" 200 -
+2026-01-08 08:18:23,641 - INFO - 127.0.0.1 - - [08/Jan/2026 08:18:23] "GET /app.js HTTP/1.1" 200 -
+2026-01-08 08:18:23,842 - INFO - 127.0.0.1 - - [08/Jan/2026 08:18:23] "GET /api/events HTTP/1.1" 200 -
+2026-01-08 08:20:38,056 - INFO -  * Detected change in 'C:\\Users\\HP\\.gemini\\antigravity\\scratch\\yt\\backend\\app.py', reloading
+2026-01-08 08:20:38,210 - INFO -  * Restarting with stat
+2026-01-08 08:20:39,531 - WARNING -  * Debugger is active!
+2026-01-08 08:20:39,535 - INFO -  * Debugger PIN: 234-308-637
+2026-01-08 08:20:41,513 - INFO - 127.0.0.1 - - [08/Jan/2026 08:20:41] "GET /api/events HTTP/1.1" 200 -
+2026-01-08 08:20:43,208 - INFO - 127.0.0.1 - - [08/Jan/2026 08:20:43] "GET /api/events HTTP/1.1" 200 -
+2026-01-08 08:21:52,607 - INFO - 127.0.0.1 - - [08/Jan/2026 08:21:52] "GET / HTTP/1.1" 200 -
+2026-01-08 08:21:52,975 - INFO - 127.0.0.1 - - [08/Jan/2026 08:21:52] "GET /styles.css HTTP/1.1" 200 -
+2026-01-08 08:21:52,976 - INFO - 127.0.0.1 - - [08/Jan/2026 08:21:52] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-01-08 08:21:53,219 - INFO - 127.0.0.1 - - [08/Jan/2026 08:21:53] "GET /api/events HTTP/1.1" 200 -
+2026-01-08 08:22:09,508 - INFO - Detected playlist: Afro Gospel Hotlist with 56 videos
+2026-01-08 08:26:58,864 - INFO - 127.0.0.1 - - [08/Jan/2026 08:26:58] "POST /api/info HTTP/1.1" 200 -
+2026-01-08 08:27:24,853 - INFO -  * Detected change in 'C:\\Users\\HP\\.gemini\\antigravity\\scratch\\yt\\backend\\app.py', reloading
+2026-01-08 08:27:25,351 - INFO -  * Restarting with stat
+2026-01-08 08:27:30,266 - WARNING -  * Debugger is active!
+2026-01-08 08:27:30,285 - INFO -  * Debugger PIN: 234-308-637
+2026-01-08 08:27:30,697 - INFO - 127.0.0.1 - - [08/Jan/2026 08:27:30] "GET /api/events HTTP/1.1" 200 -
+2026-01-08 08:27:30,702 - INFO - 127.0.0.1 - - [08/Jan/2026 08:27:30] "GET /api/events HTTP/1.1" 200 -
+2026-01-08 08:27:59,716 - INFO - 127.0.0.1 - - [08/Jan/2026 08:27:59] "GET /api/history HTTP/1.1" 200 -
+2026-01-08 08:28:14,112 - INFO - Detected playlist: Afro Gospel Hotlist with 56 videos
+2026-01-08 08:28:14,115 - INFO - Playlist processed: 56 videos ready
+2026-01-08 08:28:14,119 - INFO - 127.0.0.1 - - [08/Jan/2026 08:28:14] "POST /api/info HTTP/1.1" 200 -
+2026-01-08 08:28:30,610 - INFO - 127.0.0.1 - - [08/Jan/2026 08:28:30] "[36mGET / HTTP/1.1[0m" 304 -
+2026-01-08 08:28:31,068 - INFO - 127.0.0.1 - - [08/Jan/2026 08:28:31] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2026-01-08 08:28:31,071 - INFO - 127.0.0.1 - - [08/Jan/2026 08:28:31] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-01-08 08:28:31,301 - INFO - 127.0.0.1 - - [08/Jan/2026 08:28:31] "GET /api/events HTTP/1.1" 200 -
+2026-01-08 08:28:40,349 - INFO - Detected playlist: Afro Gospel Hotlist with 56 videos
+2026-01-08 08:28:40,351 - INFO - Playlist processed: 56 videos ready
+2026-01-08 08:28:40,355 - INFO - 127.0.0.1 - - [08/Jan/2026 08:28:40] "POST /api/info HTTP/1.1" 200 -
+2026-01-08 08:36:20,550 - INFO - 127.0.0.1 - - [08/Jan/2026 08:36:20] "GET / HTTP/1.1" 200 -
+2026-01-08 08:36:20,914 - INFO - 127.0.0.1 - - [08/Jan/2026 08:36:20] "GET /styles.css HTTP/1.1" 200 -
+2026-01-08 08:36:20,915 - INFO - 127.0.0.1 - - [08/Jan/2026 08:36:20] "GET /app.js HTTP/1.1" 200 -
+2026-01-08 08:36:21,182 - INFO - 127.0.0.1 - - [08/Jan/2026 08:36:21] "GET /api/events HTTP/1.1" 200 -
+2026-01-08 08:36:32,973 - INFO - 127.0.0.1 - - [08/Jan/2026 08:36:32] "GET /api/history HTTP/1.1" 200 -
+2026-01-08 08:36:50,294 - INFO - Detected playlist: Naija Gospel Hits 2024 with 49 videos
+2026-01-08 08:36:50,295 - INFO - Playlist processed: 49 videos ready
+2026-01-08 08:36:50,298 - INFO - 127.0.0.1 - - [08/Jan/2026 08:36:50] "POST /api/info HTTP/1.1" 200 -
+2026-01-08 08:37:17,046 - INFO - Detected playlist: Afro Gospel Hotlist with 56 videos
+2026-01-08 08:37:17,047 - INFO - Playlist processed: 56 videos ready
+2026-01-08 08:37:17,049 - INFO - 127.0.0.1 - - [08/Jan/2026 08:37:17] "POST /api/info HTTP/1.1" 200 -
+2026-01-08 08:38:51,433 - INFO - 127.0.0.1 - - [08/Jan/2026 08:38:51] "POST /api/info HTTP/1.1" 200 -
+2026-01-08 08:44:46,891 - INFO - Detected playlist: Naija Gospel Hits 2025 with 50 videos
+2026-01-08 08:44:46,891 - INFO - Playlist processed: 50 videos ready
+2026-01-08 08:44:57,038 - INFO - Detected playlist: Album - Generation Intimacy (Live) with 16 videos
+2026-01-08 08:44:57,039 - INFO - Playlist processed: 16 videos ready
+2026-01-08 08:44:59,100 - INFO - Detected playlist: Album - The Great Commission with 14 videos
+2026-01-08 08:44:59,100 - INFO - Playlist processed: 14 videos ready
+2026-01-08 08:45:49,986 - INFO - 127.0.0.1 - - [08/Jan/2026 08:45:49] "POST /api/info HTTP/1.1" 200 -
+2026-01-08 08:47:01,251 - INFO - Started download 50abb41f for https://music.youtube.com/watch?v=7uWm8b4I91c
+2026-01-08 08:47:01,252 - INFO - Started download 7ad831e7 for https://music.youtube.com/watch?v=85B_DpmMunk
+2026-01-08 08:47:01,253 - INFO - Started download 8a591a6c for https://music.youtube.com/watch?v=7PruZwKSeyQ
+2026-01-08 08:47:01,254 - INFO - Started download 55a620d3 for https://music.youtube.com/watch?v=PA_R-D6iULA
+2026-01-08 08:47:01,254 - INFO - Started download e911601d for https://music.youtube.com/watch?v=4-GtqBrVIW0
+2026-01-08 08:47:01,255 - INFO - Started download 1b5f1478 for https://music.youtube.com/watch?v=KgSIbnegeSQ
+2026-01-08 08:47:01,255 - INFO - Started download 41f99abb for https://music.youtube.com/watch?v=gO4nkvkrBO4
+2026-01-08 08:47:01,255 - INFO - Started download 1a7b2a23 for https://music.youtube.com/watch?v=dNKe1fP9O9o
+2026-01-08 08:47:01,256 - INFO - Started download e2a121d3 for https://music.youtube.com/watch?v=JT0rkZd29ck
+2026-01-08 08:47:01,256 - INFO - Started download 08a01fd2 for https://music.youtube.com/watch?v=lwSU9-EzuLo
+2026-01-08 08:47:01,256 - INFO - Started download 3b99acea for https://music.youtube.com/watch?v=DIFXXJ4MWrA
+2026-01-08 08:47:01,257 - INFO - Started download b5688d28 for https://music.youtube.com/watch?v=fem4tFkwUEU
+2026-01-08 08:47:01,257 - INFO - Started download 07223b23 for https://music.youtube.com/watch?v=RjUA8Lddi44
+2026-01-08 08:47:01,257 - INFO - Started download 5d49e85e for https://music.youtube.com/watch?v=9kh08vUGhzs
+2026-01-08 08:47:01,258 - INFO - Started download c098f6b4 for https://music.youtube.com/watch?v=8nc2WdWPlvQ
+2026-01-08 08:47:01,258 - INFO - Started download b47a0ebb for https://music.youtube.com/watch?v=bYygipo6TDI
+2026-01-08 08:47:01,258 - INFO - Started download 7a494998 for https://music.youtube.com/watch?v=9v-uQTxyN4M
+2026-01-08 08:47:01,259 - INFO - Started download e5b8918d for https://music.youtube.com/watch?v=G7tj6YkDbp8
+2026-01-08 08:47:01,259 - INFO - Started download abc7fe6e for https://music.youtube.com/watch?v=cX5xx9gmOcU
+2026-01-08 08:47:01,259 - INFO - Started download f53549f5 for https://music.youtube.com/watch?v=OQWknrwHLag
+2026-01-08 08:47:01,259 - INFO - Started download b2b9e5b9 for https://music.youtube.com/watch?v=YNs0rSDl6Ww
+2026-01-08 08:47:01,261 - INFO - Started download c9689b32 for https://music.youtube.com/watch?v=pKbjAt7lyXc
+2026-01-08 08:47:01,262 - INFO - Started download fc7b3d4b for https://music.youtube.com/watch?v=lCfc55nUt0g
+2026-01-08 08:47:01,263 - INFO - Started download f9014cd1 for https://music.youtube.com/watch?v=2QiZIvjkyWU
+2026-01-08 08:47:01,264 - INFO - Started download 881b5edb for https://music.youtube.com/watch?v=3uDE6iMSd4c
+2026-01-08 08:47:01,265 - INFO - Started download bfd2c7fc for https://music.youtube.com/watch?v=W5N2D5AQ6-E
+2026-01-08 08:47:01,265 - INFO - Started download 609a97a7 for https://music.youtube.com/watch?v=8S1-59HuCeg
+2026-01-08 08:47:01,268 - INFO - Started download 076f4f7c for https://music.youtube.com/watch?v=vAlzesFoBeU
+2026-01-08 08:47:01,271 - INFO - Started download 6e0e1bb0 for https://music.youtube.com/watch?v=ZiBlRxdy3Cs
+2026-01-08 08:47:01,272 - INFO - Started download fd45943d for https://music.youtube.com/watch?v=9Ydc-rU_7Rg
+2026-01-08 08:47:01,273 - INFO - Started download ef4ea90d for https://music.youtube.com/watch?v=qMg7VKbkp7Y
+2026-01-08 08:47:01,288 - INFO - Started download 5b8b183a for https://music.youtube.com/watch?v=OKK7LJS29sk
+2026-01-08 08:47:01,474 - INFO - Started download ecd554b3 for https://music.youtube.com/watch?v=0Qn6UYln9rY
+2026-01-08 08:47:01,474 - INFO - Started download efe520da for https://music.youtube.com/watch?v=kKPO4R29G5M
+2026-01-08 08:47:01,475 - INFO - Started download a8e5848a for https://music.youtube.com/watch?v=doixvIv__5I
+2026-01-08 08:47:01,475 - INFO - Started download 65589e7f for https://music.youtube.com/watch?v=YiNX0iSkNMk
+2026-01-08 08:47:01,476 - INFO - Started download 098ed918 for https://music.youtube.com/watch?v=iXULCfRiX0I
+2026-01-08 08:47:01,883 - INFO - Started download 15c1c1ea for https://music.youtube.com/watch?v=yt3hWAlqGsg
+2026-01-08 08:47:01,980 - INFO - Started download ceaad408 for https://music.youtube.com/watch?v=y5NXJWHhKtk
+2026-01-08 08:47:02,442 - INFO - Started download 009b03b4 for https://music.youtube.com/watch?v=Zt1-01K57EE
+2026-01-08 08:47:02,616 - INFO - Started download 40db018e for https://music.youtube.com/watch?v=iUoOEYNDcNY
+2026-01-08 08:47:02,696 - INFO - Started download 87333cf9 for https://music.youtube.com/watch?v=yXmw21r_28Y
+2026-01-08 08:47:02,734 - INFO - Started download f59bee99 for https://music.youtube.com/watch?v=1iSlzSecacM
+2026-01-08 08:47:02,869 - INFO - Started download 2934f497 for https://music.youtube.com/watch?v=uERW_JmM5h8
+2026-01-08 08:47:02,904 - INFO - Started download 062df191 for https://music.youtube.com/watch?v=8e0RhSjR4p4
+2026-01-08 08:47:02,998 - INFO - Started download 970afe2a for https://music.youtube.com/watch?v=IukdmyX1gBE
+2026-01-08 08:47:02,999 - INFO - Started download a02accd7 for https://music.youtube.com/watch?v=azLtq65Y2mo
+2026-01-08 08:47:03,030 - INFO - Started download 7620d0bf for https://music.youtube.com/watch?v=RlLnd0iYhbU
+2026-01-08 08:47:03,105 - INFO - Started download bf0d98de for https://music.youtube.com/watch?v=ahOXZArEJ9k
+2026-01-08 08:47:03,119 - INFO - Started download 58971129 for https://music.youtube.com/watch?v=dkPClcO4Whw
+2026-01-08 08:47:03,122 - INFO - Started download 3e50d347 for https://music.youtube.com/watch?v=5ZfX0N-d-60
+2026-01-08 08:47:03,123 - INFO - Started download 64805dd9 for https://music.youtube.com/watch?v=XUMjJ5w564I
+2026-01-08 08:47:03,123 - INFO - Started download 79d1bf71 for https://music.youtube.com/watch?v=duFavBDXh1I
+2026-01-08 08:47:03,124 - INFO - Started download 2b7279b2 for https://music.youtube.com/watch?v=k4zQoEQyq4Y
+2026-01-08 08:47:03,125 - INFO - Started download c6592576 for https://music.youtube.com/watch?v=QglhoVz5ank
+2026-01-08 08:47:03,125 - INFO - Started download e5103a09 for https://music.youtube.com/watch?v=DyWQVAy9Daw
+2026-01-08 08:47:03,125 - INFO - Started download 0762cba0 for https://music.youtube.com/watch?v=jiw4ylbmhis
+2026-01-08 08:47:03,125 - INFO - Started download 07a2b7bc for https://music.youtube.com/watch?v=3u18dlM4Nx4
+2026-01-08 08:47:03,126 - INFO - Started download 3385cca0 for https://music.youtube.com/watch?v=VI_KWEKtJPo
+2026-01-08 08:47:03,127 - INFO - Started download 8eee6964 for https://music.youtube.com/watch?v=pSpID4vsk9c
+2026-01-08 08:47:03,128 - INFO - Started download 7d7ed0eb for https://music.youtube.com/watch?v=6cT9U1RAVQs
+2026-01-08 08:47:03,128 - INFO - Started download f060b450 for https://music.youtube.com/watch?v=zmH6M8RnJQs
+2026-01-08 08:47:03,129 - INFO - Started download e90eb19a for https://music.youtube.com/watch?v=XmYEb3impcM
+2026-01-08 08:47:03,129 - INFO - Started download 8beab3e7 for https://music.youtube.com/watch?v=tmjGiVSF210
+2026-01-08 08:47:03,129 - INFO - Started download 6f78830b for https://music.youtube.com/watch?v=h2herRxCHYc
+2026-01-08 08:47:03,130 - INFO - Started download 693ebcea for https://music.youtube.com/watch?v=pBWU8ZWgXEg
+2026-01-08 08:47:03,130 - INFO - Started download dc2773e7 for https://music.youtube.com/watch?v=hNEghsp78Nc
+2026-01-08 08:47:03,130 - INFO - Started download 49304a3d for https://music.youtube.com/watch?v=Ve9dbChhzik
+2026-01-08 08:47:03,131 - INFO - Started download 9a064187 for https://music.youtube.com/watch?v=hdinszeCwrU
+2026-01-08 08:47:03,131 - INFO - Started download 95eeeee7 for https://music.youtube.com/watch?v=YA2Lxfw4SSw
+2026-01-08 08:47:03,131 - INFO - Started download faf2d923 for https://music.youtube.com/watch?v=_oVzNBiZ09A
+2026-01-08 08:47:03,132 - INFO - Started download 2a05355a for https://music.youtube.com/watch?v=nB9OfQwOlcM
+2026-01-08 08:47:03,132 - INFO - Started download 3d5e05e1 for https://music.youtube.com/watch?v=0N8jWaBQUuA
+2026-01-08 08:47:03,134 - INFO - Started download cefbad5d for https://music.youtube.com/watch?v=C_rjNGjckUc
+2026-01-08 08:47:03,135 - INFO - Started download 6c85212c for https://music.youtube.com/watch?v=BJ2bMDtTdBk
+2026-01-08 08:47:03,136 - INFO - Started download 94b3af4f for https://music.youtube.com/watch?v=mSSyv5ommg0
+2026-01-08 08:47:03,138 - INFO - Started download 0d9f9ab5 for https://music.youtube.com/watch?v=KsRQqmzzOAc
+2026-01-08 08:47:03,138 - INFO - Started download 2215fe4d for https://music.youtube.com/watch?v=uXSyaewWEgg
+2026-01-08 08:47:03,138 - INFO - Started download 234e6bd9 for https://music.youtube.com/watch?v=j6j5LTVIx9w
+2026-01-08 08:47:03,139 - INFO - Started download edcf4f0d for https://music.youtube.com/watch?v=ZJ5qg_Nu3FA
+2026-01-08 08:47:03,140 - INFO - Started download 14940e79 for https://music.youtube.com/watch?v=Ha1_FD-Qj5o
+2026-01-08 08:47:03,140 - INFO - Started download f3a8b519 for https://music.youtube.com/watch?v=a6kAbZuDIdA
+2026-01-08 08:47:03,140 - INFO - Started download 7e566eeb for https://music.youtube.com/watch?v=HuIRJLCs1AY
+2026-01-08 08:47:03,141 - INFO - Started download 0d5bbbb3 for https://music.youtube.com/watch?v=NpyrcshqU2k
+2026-01-08 08:47:03,141 - INFO - Started download eb8149a5 for https://music.youtube.com/watch?v=dePDTnbQk4Q
+2026-01-08 08:47:03,141 - INFO - Started download 9953e4f1 for https://music.youtube.com/watch?v=KXZQQ8m5dD4
+2026-01-08 08:47:03,142 - INFO - Started download 7a84343a for https://music.youtube.com/watch?v=G7pX9x4qPgQ
+2026-01-08 08:47:03,142 - INFO - Started download 4a8ac69b for https://music.youtube.com/watch?v=odV15R0uVCU
+2026-01-08 08:47:03,142 - INFO - Started download b56b33b3 for https://music.youtube.com/watch?v=OxkQbbnCNrU
+2026-01-08 08:47:03,142 - INFO - Started download cd78a797 for https://music.youtube.com/watch?v=4vr1G2U-Fkc
+2026-01-08 08:47:03,143 - INFO - Started download fe542083 for https://music.youtube.com/watch?v=47IAfOSHbuc
+2026-01-08 08:47:03,147 - INFO - Started download 27953e1a for https://music.youtube.com/watch?v=VmE_CQCjc5w
+2026-01-08 08:47:03,149 - INFO - Started download 820044c7 for https://music.youtube.com/watch?v=vGeZqhHG-as
+2026-01-08 08:47:03,149 - INFO - Started download dbdb7065 for https://music.youtube.com/watch?v=mruKTtIPnhU
+2026-01-08 08:47:03,149 - INFO - Started download acf71947 for https://music.youtube.com/watch?v=juDiB3odYIM
+2026-01-08 08:47:03,150 - INFO - Started download 4500160a for https://music.youtube.com/watch?v=Sw_z1_JjwnE
+2026-01-08 08:47:03,151 - INFO - Started download 85b5cf40 for https://music.youtube.com/watch?v=RoEDPdWEZiQ
+2026-01-08 08:47:03,151 - INFO - Started download c8d1d209 for https://music.youtube.com/watch?v=weFaualJxb8
+2026-01-08 08:47:03,152 - INFO - Started download 29e43412 for https://music.youtube.com/watch?v=ALcoXMywMCg
+2026-01-08 08:47:03,152 - INFO - Started download 2eed1d46 for https://music.youtube.com/watch?v=NfsYhBYcHTI
+2026-01-08 08:47:03,153 - INFO - Started download dfd9048a for https://music.youtube.com/watch?v=4_trroYl8d4
+2026-01-08 08:47:03,153 - INFO - Started download dccdcd1b for https://www.youtube.com/watch?v=5SvqbLI97v4
+2026-01-08 08:47:03,153 - INFO - Started download 830dde49 for https://www.youtube.com/watch?v=xCCEcXU5pm0
+2026-01-08 08:47:03,153 - INFO - Started download 93a1a927 for https://music.youtube.com/watch?v=o8Gds6lBick
+2026-01-08 08:47:03,153 - INFO - Started download 1ea2aa32 for https://music.youtube.com/watch?v=GFF2xl3kkeU
+2026-01-08 08:47:03,154 - INFO - Started download 00da393f for https://music.youtube.com/watch?v=cTbLb68tH10
+2026-01-08 08:47:03,154 - INFO - Started download 0689b93c for https://music.youtube.com/watch?v=LJA_g-_xlCs
+2026-01-08 08:47:03,155 - INFO - Started download 3f2b24b1 for https://music.youtube.com/watch?v=LITUELXmkWk
+2026-01-08 08:47:03,155 - INFO - Started download 92258fd1 for https://music.youtube.com/watch?v=X8ElWoN0HBE
+2026-01-08 08:47:03,155 - INFO - Started download 149fe6f1 for https://music.youtube.com/watch?v=eUNFNSf4fVw
+2026-01-08 08:47:03,156 - INFO - Started download 59e4bb83 for https://music.youtube.com/watch?v=Ib1GOQCrrPo
+2026-01-08 08:47:03,156 - INFO - Started download 6e618222 for https://music.youtube.com/watch?v=xCCEcXU5pm0
+2026-01-08 08:47:03,156 - INFO - Started download 322a7939 for https://music.youtube.com/watch?v=L9kA6DZg1VI
+2026-01-08 08:47:03,157 - INFO - Started download 8850653d for https://music.youtube.com/watch?v=zZXPDlyb__w
+2026-01-08 08:47:03,157 - INFO - Started download 1e06a6ce for https://music.youtube.com/watch?v=8GLymMzwbg4
+2026-01-08 08:47:03,158 - INFO - Started download e0f7473f for https://music.youtube.com/watch?v=P10KyOyLTGU
+2026-01-08 08:47:03,158 - INFO - Started download 280814f4 for https://music.youtube.com/watch?v=BShsFX1D7DQ
+2026-01-08 08:47:03,158 - INFO - Started download b06db647 for https://music.youtube.com/watch?v=QZq2IbGJMxY
+2026-01-08 08:47:03,159 - INFO - Started download ee699d1b for https://music.youtube.com/watch?v=9YSeqIpry1I
+2026-01-08 08:47:03,162 - INFO - Started download b9715877 for https://music.youtube.com/watch?v=g9Nlqd1XG7I
+2026-01-08 08:47:03,163 - INFO - Started download df3c0c0e for https://music.youtube.com/watch?v=kwCzLzdxVj8
+2026-01-08 08:47:03,165 - INFO - Started download 3ae29782 for https://music.youtube.com/watch?v=3Tj3eYFqDSM
+2026-01-08 08:47:03,165 - INFO - Started download ceb10673 for https://music.youtube.com/watch?v=1nHcF9zrMlw
+2026-01-08 08:47:03,165 - INFO - Started download 88a66aee for https://music.youtube.com/watch?v=9Ufb8t4PnhM
+2026-01-08 08:47:03,167 - INFO - Started download a76a999a for https://music.youtube.com/watch?v=uEMQIlPNEXw
+2026-01-08 08:47:03,167 - INFO - Started download 01ba0f9b for https://music.youtube.com/watch?v=GDl9NIjsZmo
+2026-01-08 08:47:03,167 - INFO - Started download 1dea6bf6 for https://music.youtube.com/watch?v=7vN1C68q3Yk
+2026-01-08 08:47:03,168 - INFO - Started download 9743ce05 for https://music.youtube.com/watch?v=nITpV70BiIA
+2026-01-08 08:47:03,169 - INFO - Started download e7c6c7f8 for https://music.youtube.com/watch?v=1RokMnW4CCQ
+2026-01-08 08:47:03,169 - INFO - Started download 6a693ec0 for https://music.youtube.com/watch?v=BAPtYxBTrkI
+2026-01-08 08:47:03,169 - INFO - Started download 73ab8009 for https://music.youtube.com/watch?v=qYtm_50Orm8
+2026-01-08 08:47:03,170 - INFO - Started download 1e9e07f3 for https://music.youtube.com/watch?v=UbhD7O9Yrcg
+2026-01-08 08:47:03,170 - INFO - Started download cbedf970 for https://music.youtube.com/watch?v=KlrcGDy0QNs
+2026-01-08 08:47:03,170 - INFO - Started download c28e6e88 for https://music.youtube.com/watch?v=GPaOK_lya8E
+2026-01-08 08:47:03,171 - INFO - Started download b82fa403 for https://music.youtube.com/watch?v=Ln0OMDNLsaA
+2026-01-08 08:47:03,171 - INFO - Started download 1515e636 for https://music.youtube.com/watch?v=X9qFj52l3rE
+2026-01-08 08:47:03,172 - INFO - Started download 29680f84 for https://www.youtube.com/watch?v=GsizFf3UoEk
+2026-01-08 08:47:03,173 - INFO - Started download 5fe36eef for https://music.youtube.com/watch?v=dr13brZhXJ4
+2026-01-08 08:47:03,174 - INFO - Started download 28e1ebdf for https://music.youtube.com/watch?v=mhVDQ6yK998
+2026-01-08 08:47:03,175 - INFO - Started download 7002aedb for https://music.youtube.com/watch?v=PKPKo1q-YJM
+2026-01-08 08:47:03,176 - INFO - Started download b93e9878 for https://music.youtube.com/watch?v=CdXtqgLs3tc
+2026-01-08 08:47:03,180 - INFO - Started download 19dfb1cf for https://music.youtube.com/watch?v=7nH2QECkOM4
+2026-01-08 08:47:03,181 - INFO - Started download b11742c3 for https://music.youtube.com/watch?v=LTT72-C9fcs
+2026-01-08 08:47:03,182 - INFO - Started download 7202e1f0 for https://music.youtube.com/watch?v=ScSAZ0i_YXk
+2026-01-08 08:47:03,183 - INFO - Started download 25c197ae for https://music.youtube.com/watch?v=LFLSLkynYRY
+2026-01-08 08:47:03,183 - INFO - Started download faeebf1f for https://music.youtube.com/watch?v=7IfYUm1j_cI
+2026-01-08 08:47:03,184 - INFO - Started download b860f74c for https://music.youtube.com/watch?v=TZV39J8ei6s
+2026-01-08 08:47:03,184 - INFO - Started download 0f35762f for https://music.youtube.com/watch?v=3MhbKjssj08
+2026-01-08 08:47:03,185 - INFO - Started download 86cafe5a for https://music.youtube.com/watch?v=ry4dGeomYyM
+2026-01-08 08:47:03,185 - INFO - Started download 59c29a50 for https://music.youtube.com/watch?v=1WObrsrPY2o
+2026-01-08 08:47:03,186 - INFO - Started download 1934bcc8 for https://music.youtube.com/watch?v=7eLqgetuU_c
+2026-01-08 08:47:03,186 - INFO - Started download e0c06fba for https://music.youtube.com/watch?v=F0olXwFqSpw
+2026-01-08 08:47:03,186 - INFO - Started download b95fb7aa for https://music.youtube.com/watch?v=Y8lrtbZyKVo
+2026-01-08 08:47:03,187 - INFO - Started download 7ce75e21 for https://music.youtube.com/watch?v=dM37XLWF95U
+2026-01-08 08:47:03,187 - INFO - Started download bebaafe2 for https://music.youtube.com/watch?v=nwrL36a5ucA
+2026-01-08 08:47:03,187 - INFO - Started download f8e80220 for https://music.youtube.com/watch?v=JgU0vaeLSl4
+2026-01-08 08:47:03,187 - INFO - Started download 96bd1eed for https://music.youtube.com/watch?v=mgw54vBg4V4
+2026-01-08 08:47:03,188 - INFO - Started download 8846474a for https://music.youtube.com/watch?v=7btD8ktdGDk
+2026-01-08 08:47:03,188 - INFO - Started download 4fa642dd for https://music.youtube.com/watch?v=_qP4WvanquA
+2026-01-08 08:47:03,188 - INFO - Started download f531a90b for https://music.youtube.com/watch?v=0qnnOwfE8CA
+2026-01-08 08:47:03,189 - INFO - Started download 9e2b3d7e for https://music.youtube.com/watch?v=_vrAQAGiA70
+2026-01-08 08:47:03,189 - INFO - Started download 8f9f47e2 for https://music.youtube.com/watch?v=MZJEF2VRbQI
+2026-01-08 08:47:03,189 - INFO - Started download 59332dac for https://music.youtube.com/watch?v=sxeQCPlU2lg
+2026-01-08 08:47:03,190 - INFO - Started download 4b0c9760 for https://music.youtube.com/watch?v=EI4F6xL48YE
+2026-01-08 08:47:03,190 - INFO - Started download 192d9235 for https://music.youtube.com/watch?v=hCNSpxmXBE4
+2026-01-08 08:47:03,190 - INFO - Started download ea08ef58 for https://music.youtube.com/watch?v=ucI4dL_oX8A
+2026-01-08 08:47:03,191 - INFO - Started download d79cffe8 for https://www.youtube.com/watch?v=bed5ZT0DLdc
+2026-01-08 08:47:03,191 - INFO - Started download 72e0c100 for https://www.youtube.com/watch?v=4N-T2OzVNIU
+2026-01-08 08:47:03,191 - INFO - Started download a8bcc4f6 for https://www.youtube.com/watch?v=nITpV70BiIA
+2026-01-08 08:47:03,192 - INFO - Started download b587db2c for https://www.youtube.com/watch?v=qe9zN28tKJo
+2026-01-08 08:47:03,192 - INFO - Started download e13eedbe for https://www.youtube.com/watch?v=ur-5HRzLWU4
+2026-01-08 08:47:03,195 - INFO - 127.0.0.1 - - [08/Jan/2026 08:47:03] "POST /api/download HTTP/1.1" 200 -
+2026-01-08 08:47:36,843 - INFO - 127.0.0.1 - - [08/Jan/2026 08:47:36] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2026-01-08 08:47:36,852 - INFO - 127.0.0.1 - - [08/Jan/2026 08:47:36] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-01-08 08:52:21,102 - INFO - 127.0.0.1 - - [08/Jan/2026 08:52:21] "GET /api/history HTTP/1.1" 200 -
+2026-01-08 09:05:08,150 - ERROR - Download failed for https://music.youtube.com/watch?v=j6j5LTVIx9w: ERROR: Unable to rename file: [WinError 32] The process cannot access the file because it is being used by another process: 'Audio\\Mercy Chinwo - Too Many Reasons ft Chioma Jesus (Official Video).webm.part' -> 'Audio\\Mercy Chinwo - Too Many Reasons ft Chioma Jesus (Official Video).webm'. Giving up after 3 retries
+2026-01-08 09:16:10,321 - INFO - 127.0.0.1 - - [08/Jan/2026 09:16:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-01-08 09:35:38,314 - INFO - 127.0.0.1 - - [08/Jan/2026 09:35:38] "GET /api/history HTTP/1.1" 200 -
+2026-01-08 09:41:21,359 - INFO - 127.0.0.1 - - [08/Jan/2026 09:41:21] "GET /api/events HTTP/1.1" 200 -
+2026-01-08 09:41:23,229 - INFO - 127.0.0.1 - - [08/Jan/2026 09:41:23] "GET / HTTP/1.1" 200 -
+2026-01-08 09:41:23,620 - INFO - 127.0.0.1 - - [08/Jan/2026 09:41:23] "GET /styles.css HTTP/1.1" 200 -
+2026-01-08 09:41:23,622 - INFO - 127.0.0.1 - - [08/Jan/2026 09:41:23] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-01-08 09:41:24,125 - INFO - 127.0.0.1 - - [08/Jan/2026 09:41:24] "GET /api/events HTTP/1.1" 200 -
+2026-01-08 09:41:48,483 - INFO - 127.0.0.1 - - [08/Jan/2026 09:41:48] "GET /api/history HTTP/1.1" 200 -
+2026-01-08 09:47:54,353 - INFO - 127.0.0.1 - - [08/Jan/2026 09:47:54] "POST /api/info HTTP/1.1" 200 -
+2026-01-09 08:36:06,969 - INFO - 127.0.0.1 - - [09/Jan/2026 08:36:06] "GET /api/events HTTP/1.1" 200 -
+2026-01-09 08:36:41,646 - INFO - 127.0.0.1 - - [09/Jan/2026 08:36:41] "GET /api/events HTTP/1.1" 200 -
+2026-01-09 08:37:00,799 - INFO - 127.0.0.1 - - [09/Jan/2026 08:37:00] "OPTIONS /api/info HTTP/1.1" 200 -
+2026-01-09 08:37:26,270 - ERROR - Error fetching info for https://www.instagram.com/p/Co1UrwqIIYq/: Unknown format code 'd' for object of type 'float'
+2026-01-09 08:37:26,304 - INFO - 127.0.0.1 - - [09/Jan/2026 08:37:26] "POST /api/info HTTP/1.1" 200 -
