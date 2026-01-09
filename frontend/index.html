@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Advanced Multi-Format Video & Audio Downloader">
+    <title>MediaVault - Video & Audio Downloader</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="bg-effects">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo-section">
+                <div class="logo-icon">📥</div>
+                <div class="logo-text">
+                    <h1>MediaVault</h1>
+                    <span class="tagline">Advanced Video & Audio Downloader</span>
+                </div>
+            </div>
+            <div class="header-controls">
+                <button id="historyBtn" class="icon-btn" title="History (H)">🕐</button>
+                <button id="settingsBtn" class="icon-btn" title="Settings (S)">⚙️</button>
+            </div>
+        </header>
+
+        <section class="input-section glass-panel">
+            <div class="input-header">
+                <h2>🔗 Paste URLs</h2>
+                <div class="supported-platforms">
+                    <span class="platform-badge youtube">YouTube</span>
+                    <span class="platform-badge youtube-music">YT Music</span>
+                    <span class="platform-badge instagram">Instagram</span>
+                    <span class="platform-badge tiktok">TikTok</span>
+                    <span class="platform-badge twitter">X/Twitter</span>
+                    <span class="platform-badge more">+100 more</span>
+                </div>
+            </div>
+            <div class="url-input-wrapper" id="dropZone">
+                <textarea id="urlInput" placeholder="Paste video URLs here (one per line)..."></textarea>
+                <div class="drop-overlay" id="dropOverlay">Drop URLs here</div>
+            </div>
+            <div class="input-actions">
+                <button id="fetchBtn" class="btn btn-primary">🔍 Fetch Videos</button>
+                <button id="clearUrlsBtn" class="btn btn-secondary">✕ Clear</button>
+            </div>
+        </section>
+
+        <section class="global-settings glass-panel" id="globalSettings" style="display: none;">
+            <div class="settings-header">
+                <h3>⚡ Batch Settings</h3>
+            </div>
+            <div class="settings-grid">
+                <div class="setting-item">
+                    <label>Resolution</label>
+                    <select id="globalResolution">
+                        <option value="">Keep Individual</option>
+                        <option value="2160p">4K</option>
+                        <option value="1080p" selected>1080p</option>
+                        <option value="720p">720p</option>
+                        <option value="480p">480p</option>
+                    </select>
+                </div>
+                <div class="setting-item">
+                    <label>Format</label>
+                    <select id="globalFormat">
+                        <option value="mp4" selected>MP4</option>
+                        <option value="mkv">MKV</option>
+                        <option value="webm">WebM</option>
+                    </select>
+                </div>
+                <div class="setting-item">
+                    <label>Audio Only</label>
+                    <input type="checkbox" id="globalAudioOnly">
+                </div>
+                <div class="setting-item" id="globalBitrateWrapper" style="display: none;">
+                    <label>Bitrate</label>
+                    <select id="globalBitrate">
+                        <option value="128">128k</option>
+                        <option value="192" selected>192k</option>
+                        <option value="320">320k</option>
+                    </select>
+                </div>
+            </div>
+            <button id="applyGlobalBtn" class="btn btn-accent">Apply to All</button>
+        </section>
+
+        <section class="queue-section glass-panel" id="queueSection" style="display: none;">
+            <div class="queue-header">
+                <h2>📋 Queue <span id="queueCount">0</span></h2>
+                <div class="queue-controls">
+                    <button id="startAllBtn" class="btn btn-primary">▶ Start All</button>
+                    <button id="clearQueueBtn" class="btn btn-secondary">🗑 Clear</button>
+                </div>
+            </div>
+            <div class="video-cards" id="videoCards"></div>
+        </section>
+
+        <div class="loading-overlay" id="loadingOverlay" style="display: none;">
+            <div class="loader">
+                <div class="loader-ring"></div>
+            </div>
+            <p>Fetching video information...</p>
+        </div>
+        <div class="toast-container" id="toastContainer"></div>
+    </div>
+
+    <div class="modal-overlay" id="settingsModal">
+        <div class="modal glass-panel">
+            <div class="modal-header">
+                <h3>⚙️ Settings</h3><button class="modal-close" id="closeSettingsModal">✕</button>
+            </div>
+            <div class="modal-body">
+                <div class="setting-group">
+                    <label>Download Directory</label>
+                    <input type="text" id="downloadDir" placeholder="~/Downloads/VideoDownloader">
+                </div>
+                <div class="setting-group">
+                    <label>Create Subfolders</label>
+                    <input type="checkbox" id="createSubfolders" checked>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="cancelSettings">Cancel</button>
+                <button class="btn btn-primary" id="saveSettings">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="historyModal">
+        <div class="modal modal-large glass-panel">
+            <div class="modal-header">
+                <h3>🕐 History</h3><button class="modal-close" id="closeHistoryModal">✕</button>
+            </div>
+            <div class="modal-body">
+                <div class="history-list" id="historyList">
+                    <p class="history-empty">No history yet</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="clearHistory">Clear</button>
+                <button class="btn btn-primary" id="closeHistoryBtn">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Duplicate Detection Modal -->
+    <div class="modal-overlay" id="duplicateModal">
+        <div class="modal glass-panel">
+            <div class="modal-header">
+                <h3>⚠️ Duplicates Found</h3>
+                <button class="modal-close" id="closeDuplicateModal">✕</button>
+            </div>
+            <div class="modal-body">
+                <p id="duplicateMessage">Some videos are already in your queue:</p>
+                <div class="duplicate-list" id="duplicateList"></div>
+            </div>
+            <div class="modal-footer duplicate-actions">
+                <button class="btn btn-secondary" id="duplicateCancel">Cancel</button>
+                <button class="btn btn-warning" id="duplicateSkip">Skip Duplicates</button>
+                <button class="btn btn-primary" id="duplicateAddAll">Add All Anyway</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
